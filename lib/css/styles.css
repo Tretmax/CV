@@ -29,13 +29,17 @@ justify-content: center;
     }
 
 header {
-    border-bottom: 3px solid green; 
+    border-bottom: 1px solid rgb(7, 7, 7); 
     height: 250px;
     width: 210mm;
-    background-color: aquamarine;
+    background-color: rgb(238, 238, 238);
    display: flex;
+
 }
  h1{
        font-size: 40px;
  font-style: inherit;
+ display: flex;
+    justify-content: center;
     }
+    
