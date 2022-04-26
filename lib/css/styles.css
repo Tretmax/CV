@@ -39,7 +39,10 @@ header {
  h1{
        font-size: 40px;
  font-style: inherit;
- display: flex;
-    justify-content: center;
+ 
     }
-    
+
+    .name{
+        display: flex;
+        justify-content: flex-end;
+    }
