@@ -1,20 +1,41 @@
-main{
+main {
 background-color: white;
 width: 210mm;
 height: 297mm;
+
+
 }
-body{
-background-color: gray;
+body {
+background-color:gray;
 padding-top: 5%;
+padding-bottom: 5%;
 display: flex;
 justify-content: center;
 }
-
-.profile {
-margin: auto;
+.maine {
+    display: flex;
+}
+.profile { 
+    padding-left: 2%;
+    border-left: 3px solid green;
+    height: 200mm;
+    width: 200mm;
 }
 
-.skills{
-   
-    background-color: hwb(0 27% 39% / 0.664);
+.left {
+    padding-left: 2%;
+    height: 200mm;
+    width: 200mm;
+    }
+
+header {
+    border-bottom: 3px solid green; 
+    height: 250px;
+    width: 210mm;
+    background-color: aquamarine;
+   display: flex;
 }
+ h1{
+    display: flex; 
+    justify-content: center;
+ }
