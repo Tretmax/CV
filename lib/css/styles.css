@@ -51,8 +51,6 @@ h1 {
     background-color: rgb(102, 94, 94);
     display: flex;
     justify-content: space-around;
-
-
 }
 
 a {
@@ -90,4 +88,9 @@ border: 2px solid black;
     }
     .cont{
         display: flex;
+        margin-left: 10%;
+
+    }
+    .cont_info{
+        padding-left: 20px;
     }
