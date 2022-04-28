@@ -1,7 +1,7 @@
 main {
     background-color: white;
     width: 210mm;
-    height: 297mm;
+    height: 240mm;
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: 'Libre Baskerville', serif;
@@ -68,9 +68,9 @@ a {
 #main_info {
     display: flex;
     
-    height: 72.5%;
+    height: 73%;
     width: 100%;
-    border: 2px solid black;
+    
 }
 
 
@@ -86,7 +86,7 @@ a {
 .right {
 
     width: 60%;
-    
+    background-color: #dad9dd;
 
 }
 
@@ -112,6 +112,8 @@ h2{
     margin-left: 5%;
     text-transform: uppercase;
     border-bottom: 3px solid black;
+    font-weight: bold;
+    
 }
 .sk{
     display: flex;
@@ -146,4 +148,23 @@ margin-top: 6%;
   .sk4{
     border-top: 10px solid black;
     width: 75%;
+  }
+
+  .date{
+      
+      margin-left: 70%;
+      font-weight: bold;
+      padding-bottom: 2%;
+  }
+  h3{
+    margin-top:5%;  
+    font-size: larger;
+    font-weight: bold;
+      display: flex;
+      justify-content:center;
+      padding-bottom: 2%;
+  }
+  .work{
+      padding-bottom: 7%;
+      border-bottom: 2px solid gray;
   }
