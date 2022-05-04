@@ -185,7 +185,7 @@ h3 {
     border-bottom: 2px solid gray;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
     main {
        width: 95%; 
        height: 10%;
